@@ -1,0 +1,20 @@
+# Віртуальне середовище Python
+.venv/
+venv/
+env/
+
+# Системні файли PyCharm та кеш Python
+.idea/
+__pycache__/
+*.py[cod]
+
+# Важкі папки з датасетами та вагами моделей (критично для GitHub!)
+data/
+weights/
+*.pth
+*.onnx
+
+# Тимчасові файли та логи
+*.log
+.DS_Store
+Thumbs.db
